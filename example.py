@@ -8,5 +8,5 @@ def add_numbers(a: int, b: int) -> int:
 
 
 def add(x: int, y: int): 
-    """add two ints"""
+    """Add two ints."""
     return x+y
