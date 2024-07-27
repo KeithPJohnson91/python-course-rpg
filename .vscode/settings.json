@@ -1,26 +1,22 @@
 {
-    "editor.formatOnSave": true,
-    "editor.rulers": [
-        {
-            "color": "lightblue",
-            "column": 79
-        },
-        {
-            "color": "lightgreen",
-            "column": 99
-        },
-    ],
-    "black-formatter.args": [
-        "--config ${workspaceFoder}/.black.toml"
-    ],
-    "pylint.args": [
-        "--disable=missing-class-docstring"
-    ],
-    "[python]": {
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": false
-        },
-        "editor.defaultFormatter": "ms-python.black-formatter"
+  "editor.formatOnSave": true,
+  "editor.rulers": [
+    {
+      "color": "lightblue",
+      "column": 79
     },
-    "python.linting.mypyEnabled": true
+    {
+      "color": "lightgreen",
+      "column": 99
+    }
+  ],
+  "black-formatter.args": ["--config ${workspaceFoder}/.black.toml"],
+  "pylint.args": ["--disable=missing-class-docstring"],
+  "[python]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "never"
+    },
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "python.linting.mypyEnabled": true
 }
