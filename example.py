@@ -7,11 +7,6 @@ def add_numbers(a: int, b: int) -> int:
     return sum([a, b])
 
 
-def add(nUmber1, nUmber2): return nUmber1+nUmber2;
-
-
-"""
-hll
-"""
-
-
+def add(x: int, y: int): 
+    """add two ints"""
+    return x+y
